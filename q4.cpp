@@ -21,7 +21,7 @@ int main()
         double k4=slope(x+h*k3,t+h);
         x+=h*(k1+2*k2+2*k3+k4)/6.0;
     }
-    cout<<fixed<<setprecision(10)<<x;
+    cout<<fixed<<setprecision(10)<<x<<endl;
     return 0;
 }
 
